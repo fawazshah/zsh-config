@@ -64,7 +64,7 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status dir_writable time load ram disk_usage
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git brew node pip python ruby
+  git node pip python ruby
 )
 
 source $ZSH/oh-my-zsh.sh
