@@ -18,4 +18,5 @@ Run the following commands:
 cd ~
 git clone https://github.com/fawazshah/zsh-config
 ln -s zsh-config/.zshrc .zshrc
+source .zshrc
 ```
