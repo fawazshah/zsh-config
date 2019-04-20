@@ -106,3 +106,16 @@ if [ -f '/Users/fawaz/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/fawaz/goo
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/fawaz/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/fawaz/google-cloud-sdk/completion.zsh.inc'; fi
+
+export JAVA_HOME=$(/usr/libexec/java_home) 
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
+
+export GOPATH=$HOME/Go
+export GOROOT=/usr/local/opt/go/libexec
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
+
+export CPLUS_INCLUDE_PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include
