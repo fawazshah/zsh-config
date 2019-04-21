@@ -12,11 +12,13 @@ This is made to work with my fork of robbyrussell's [oh-my-zsh](https://github.c
 
 ## Installation instructions
 
-Run the following commands:
+To set up for Huxley lab computers, run the following commands:
 
 ```
 cd ~
 git clone https://github.com/fawazshah/zsh-config
-ln -s zsh-config/.zshrc .zshrc
+ln -s zsh-config/.zshrc-labs .zshrc
 source .zshrc
 ```
+
+To set up on a personal mac, symlink to `.zshrc-mac` instead.
