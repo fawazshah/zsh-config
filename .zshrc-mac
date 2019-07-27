@@ -117,7 +117,7 @@ export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
 
 # Set up npm prefix (for global packages)
-export PATH=$PATH:~/.npm-packages/lib/node_modules
+export PATH=$PATH:~/.npm-packages/bin
 
 # Set C++ include path (using XCode)
 export CPLUS_INCLUDE_PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include
