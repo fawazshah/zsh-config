@@ -119,7 +119,5 @@ export PATH=$PATH:~/.npm-packages/bin
 # Set C++ include path (using XCode)
 export CPLUS_INCLUDE_PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include
 
-# Include pyenv directory in PATH to access Python versions. Initialise pyenv and pyenv virtualenv
-export PATH="$HOME/.pyenv/bin:$PATH"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+# Include openssl library to access lssl
+export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
