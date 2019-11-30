@@ -103,6 +103,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias v='vim'
 alias sv='sudo vim'
+alias pip='python3 -m pip'
 
 # Set JAVA_HOME environment variable
 export JAVA_HOME=$(/usr/libexec/java_home) 
