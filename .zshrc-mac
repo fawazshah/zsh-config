@@ -120,6 +120,9 @@ export PATH=$PATH:~/.npm-packages/bin
 # Included this because this guide said so https://docs.python-guide.org/starting/install3/osx/
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
+# Include this due to pip warnings that directory is not on path
+export PATH=$PATH:~/Library/Python/3.8/bin
+
 # Include poetry, Python release manager
 export PATH=$PATH:~/.poetry/bin
 
