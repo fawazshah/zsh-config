@@ -101,9 +101,6 @@ source $ZSH/oh-my-zsh.sh
 alias v='vim'
 alias sv='sudo vim'
 
-# include Pintos utilities
-export PATH=~/pintos_16/src/utils:$PATH
-
 # CSG usage tool
 alias usage='du -sh * .[a-zA-Z]* | sort -n'
 
@@ -113,6 +110,3 @@ export PATH=~/.local/bin:$PATH
 # Include java8 (performance engineering cw1)
 export JAVA_HOME=/usr/lib/jvm/oracle-java8-jdk-amd64
 export PATH=$JAVA_HOME/bin:$PATH
-
-# Include Python packages (Intro to ML CW2)
-export PYTHONUSERBASE=/vol/lab/ml/pypi
