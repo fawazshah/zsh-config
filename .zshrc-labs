@@ -102,7 +102,7 @@ alias v='vim'
 alias sv='sudo vim'
 
 # CSG usage tool
-alias usage='du -sh * .[a-zA-Z]* | sort -n'
+alias usage='du -s * .[a-zA-Z]* | sort -n'
 
 # Include .local/bin so that it locates jupyter notebook
 export PATH=~/.local/bin:$PATH
@@ -110,3 +110,6 @@ export PATH=~/.local/bin:$PATH
 # Include java8 (performance engineering cw1)
 export JAVA_HOME=/usr/lib/jvm/oracle-java8-jdk-amd64
 export PATH=$JAVA_HOME/bin:$PATH
+
+# Use miniconda python virtual environment
+export PATH=/vol/bitbucket/fs2217/miniconda3/bin/:$PATH
