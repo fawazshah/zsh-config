@@ -132,7 +132,5 @@ export CPLUS_INCLUDE_PATH=/Applications/Xcode.app/Contents/Developer/Platforms/M
 # Include openssl library to access lssl
 export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
 
-export BERT_BASE_DIR=/Users/fawaz/Desktop/bert-base-uncased
-
 # Allows us to use Homebrew version of git instead of MacOS git
 export PATH=$PATH:/usr/local/bin/
