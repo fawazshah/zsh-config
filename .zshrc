@@ -108,12 +108,6 @@ alias pip='python3 -m pip'
 # Set JAVA_HOME environment variable
 export JAVA_HOME=$(/usr/libexec/java_home) 
 
-# Set up Go
-export GOPATH=$HOME/Go
-export GOROOT=/usr/local/opt/go/libexec
-export PATH=$PATH:$GOPATH/bin
-export PATH=$PATH:$GOROOT/bin
-
 # Set up npm prefix (for global packages)
 export PATH=$PATH:~/.npm-packages/bin
 
